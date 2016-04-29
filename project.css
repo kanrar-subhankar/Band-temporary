@@ -1,0 +1,115 @@
+body{
+	width:100%;
+	margin:0 auto;
+	/*background-image:url("music.jpg");*/
+	background:darkslategrey;
+}
+
+@media screen and (max-width:500px){
+	#gallery > .row {
+		position:relative;
+		left:25%;
+		width:100%;
+	}
+	#gallery,#theband,#tour,#go{
+		padding-top:70px;
+	}
+	#mid > p{
+		margin-left:-40%;
+	} 
+}
+#go,#theband,#tour,#gallery{
+	padding-top:50px;
+}
+h1{
+	font-family:sans-serif;
+	color:teal;
+	margin-left:20px;
+}
+
+li{
+	margin:5px;
+	margin-right:14px;
+}
+.navbar-right > li > a{
+	  transition:0.3s;
+	  font-size:17px;
+}
+.navbar-collapse > .navbar-right > li > a:hover{
+	border-bottom:2px solid yellow;
+	text-transform:uppercase;
+}
+.navbar-collapse > .navbar-right > li > a:focus{
+	color:yellow;
+	background:black;
+}
+
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      height:520px;
+      margin-left:10px:;
+  }
+.row >.col-md-3 img{
+	width:300px;
+	height:200px;
+}
+#gallery >h1 {
+	border-bottom:2px solid white;
+}
+#gallery > a:hover{
+	color:white;
+}
+#mid{
+	position:relative;
+	margin-left:50%;
+}
+#mid > h2{
+	color:white;
+}
+.glyphicon-plus{
+	border:1px solid grey;
+	background:grey;
+	border-radius:100%;
+	color:yellow;
+	font-size:26px;
+}
+.col-md-4 > h4{
+	color:white;
+}
+#mid > .list-inline > li > p{
+	color:olive;
+}
+#mid >  h4,p{
+	color:black;
+	font-weight:bold;
+	font-size:17px;
+}
+.o{
+	border-bottom:2px solid white;
+}
+.col-md-4 > img{
+	width:200px;
+	height:169px;
+}
+.col-md-4 > p{
+	color:white;
+}
+ .col-md-8 > h2,#tour > h2,#gallery > h2,#theband > h2{
+	color:gold;
+	border-bottom:2px solid white;
+}
+.col-md-8 > p,#tour > p{
+	color:white;
+}
+#tour > p{
+	border-bottom:1px solid white;
+	width:50%;
+}
+.img-responsive{
+	box-sizing:border-box;
+	box-shadow:10px 10px 10px #888888;
+}
+#su{
+	padding-top:20px;
+}
